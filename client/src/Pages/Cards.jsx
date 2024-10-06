@@ -15,7 +15,7 @@ function Cards({ quote }) {
   }
 
   return (
-    <div className="flex items-center justify-center h-64 cursor-pointer">
+    <div className="flex items-center justify-center h-64 cursor-pointer hover:scale-110 ease-in-out">
       <div className="w-64 h-64 rounded-md">
         <div className="flex flex-col items-center justify-center bg-gradient-to-tr from-pink-300 via-purple-300 to-blue-300 p-4 rounded-md shadow-md">
           <h1 className="font-serif text-white mb-4 text-center">{quote}</h1>
